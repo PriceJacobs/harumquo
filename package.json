@@ -1,0 +1,52 @@
+{
+  "name": "harumquo",
+  "version": "1.11.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "description": "A cli tool for generating DApp front-end templates",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "@lesenelir/gmweb3": "bin/index.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "templates/**",
+    "!templates/**/node_modules"
+  ],
+  "keywords": [
+    "aspernatur",
+    "web3",
+    "dapp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PriceJacobs/harumquo.git"
+  },
+  "author": "RonaldoDuBuque",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.4",
+    "@types/fs-extra": "^11.0.2",
+    "@types/node": "^20.8.2",
+    "@types/prompts": "^2.4.5",
+    "rollup": "^3.29.4",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "kolorist": "^1.8.0",
+    "prompts": "^2.4.2",
+    "quaeratmolestiae": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/PriceJacobs/harumquo.git/issues"
+  },
+  "homepage": "https://github.com/PriceJacobs/harumquo.git"
+}
